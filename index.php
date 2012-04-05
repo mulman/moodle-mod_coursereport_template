@@ -20,7 +20,7 @@ $context = get_context_instance(CONTEXT_COURSE, $course->id);
 require_capability('coursereport/newmodule:view', $context);
 
 // Write event to log
-add_to_log($course->id, "course", "report newmodulereport/newmodule/index.php?id=$course->id", $course->id);
+add_to_log($course->id, "course", "report newmodule", "report/newmodule/index.php?id=$course->id", $course->id);
 
 // Navigation
 $navlinks = array();
