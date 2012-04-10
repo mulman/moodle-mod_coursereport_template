@@ -32,7 +32,7 @@ print_header("$course->shortname: nm", $course->fullname, $navigation);
 print_heading(format_string($course->fullname));
 
 echo "<h4 style='text-align: center'>New Course Report module</h4>";
-echo "Hello World";
+echo "<center>Hello, Iam a new module for LMS Moodle 1.9.X</center>";
 
 print_footer($course);
 ?>

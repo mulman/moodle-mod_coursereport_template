@@ -1,3 +1,3 @@
 <?php
-$string['newmodule'] = 'New Course Report Module';
+$string['newmodule'] = '--- New Course Report Module ---';
 ?>
